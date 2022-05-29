@@ -16,4 +16,25 @@
 
 body {
   font-family: "Libre Franklin", sans-serif;
+  min-height: 100vh;
+  font-size: 1.25rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header img.logo {
+  padding: 4rem 0 2.5rem;
+}
+
+.lkp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lkp h1 {
+  font-size: ;
 }
