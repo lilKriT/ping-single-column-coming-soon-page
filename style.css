@@ -36,5 +36,21 @@ header img.logo {
 }
 
 .lkp h1 {
-  font-size: ;
+  font-size: 3rem;
+  color: var(--gray);
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.lkp .bold {
+  color: #000;
+  font-weight: 700;
+}
+
+.lkp h2 {
+  color: var(--gray);
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 16px;
 }
