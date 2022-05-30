@@ -107,3 +107,14 @@ header img.logo {
 .lkp > img {
   width: 100%;
 }
+
+footer {
+  display: flex;
+}
+
+footer > img {
+  width: 32px;
+  height: 32px;
+  border: var(--gray) 1px solid;
+  border-radius: 100px;
+}
