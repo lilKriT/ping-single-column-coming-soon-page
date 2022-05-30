@@ -54,3 +54,22 @@ header img.logo {
   color: #000;
   margin-bottom: 16px;
 }
+
+.lkp .notify-me {
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
+}
+
+.lkp .notify-me h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.lkp .notify-me #email {
+  flex: 2;
+}
+
+.lkp .notify-me #submit {
+  flex: 1;
+}
