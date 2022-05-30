@@ -112,9 +112,14 @@ footer {
   display: flex;
 }
 
-footer > img {
+footer .social-media {
+  display: flex;
+}
+
+footer .social-media svg {
   width: 32px;
   height: 32px;
   border: var(--gray) 1px solid;
   border-radius: 100px;
+  fill: magenta;
 }
