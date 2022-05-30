@@ -32,7 +32,11 @@ header img.logo {
 .lkp {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 60%;
+  /* background-color: red; */
+  margin: auto;
 }
 
 .lkp h1 {
@@ -57,8 +61,9 @@ header img.logo {
 
 .lkp .notify-me {
   display: flex;
-  background-color: red;
+  /* background-color: red; */
   flex-wrap: wrap;
+  /* min-width: 200px; */
 }
 
 .lkp .notify-me h2 {
@@ -67,9 +72,29 @@ header img.logo {
 }
 
 .lkp .notify-me #email {
-  flex: 2;
+  /* flex-basis: 2;
+  flex-shrink: 1; */
+  flex-grow: 1;
+  /* background-color: red; */
+  padding: 0.9375rem 1.5625rem;
+  font-size: 1.25rem;
+  color: var(--pale-blue);
+  border: 1px solid var(--pale-blue);
+  border-radius: 100px;
+}
+
+.lkp .notify-me ::placeholder {
+  color: var(--pale-blue);
+  font-weight: 300;
 }
 
 .lkp .notify-me #submit {
-  flex: 1;
+  /* flex-basis: 1;
+  flex-shrink: 0; */
+  flex-grow: 1;
 }
+
+.lkp > img {
+  width: 100%;
+}
+
