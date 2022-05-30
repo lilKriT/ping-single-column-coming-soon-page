@@ -61,6 +61,8 @@ header img.logo {
 .lkp .notify-me {
   display: flex;
   flex-wrap: wrap;
+  gap: 0 12px;
+  margin-bottom: 5rem;
 }
 
 .lkp .notify-me h2 {
@@ -69,7 +71,7 @@ header img.logo {
 }
 
 .lkp .notify-me #email {
-  flex: 1 1 calc(100% / 3 * 2);
+  flex: 1 1 calc((100% - 12px) / 3 * 2);
   padding: 1rem 1.5rem;
   font-size: 1.25rem;
   border: 1px solid var(--pale-blue);
@@ -86,7 +88,7 @@ header img.logo {
 }
 
 .lkp .notify-me #submit {
-  flex: 1 1 calc(100% / 3 * 1);
+  flex: 1 1 calc((100% - 12px) / 3 * 1);
   background: var(--blue);
   border: none;
   border-radius: 100px;
@@ -101,6 +103,7 @@ header img.logo {
 .lkp .notify-me #submit:hover {
   filter: brightness(125%);
 }
+
 .lkp > img {
-  /* width: 100%; */
+  width: 100%;
 }
