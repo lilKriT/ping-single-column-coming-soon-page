@@ -119,7 +119,9 @@ footer .social-media {
 footer .social-media svg {
   width: 32px;
   height: 32px;
+  padding: 6px;
   border: var(--gray) 1px solid;
   border-radius: 100px;
-  fill: magenta;
+  fill: var(--blue);
+  overflow: visible;
 }
