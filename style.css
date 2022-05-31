@@ -34,7 +34,7 @@ header img.logo {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -63,11 +63,13 @@ header img.logo {
   flex-wrap: wrap;
   gap: 0 12px;
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 .lkp .notify-me h2 {
   width: 100%;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .lkp .notify-me #email {
@@ -129,6 +131,14 @@ footer .social-media svg {
   border-radius: 100px;
   fill: var(--blue);
   overflow: visible;
+  transition: all 0.3s;
+}
+
+footer .social-media svg:hover {
+  fill: #fff;
+  background-color: var(--blue);
+  border-color: var(--blue);
+  transition: all 0.3s;
 }
 
 footer p {
