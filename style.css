@@ -72,12 +72,22 @@ header img.logo {
   margin-bottom: 2rem;
 }
 
-.lkp .notify-me #email {
+.lkp .notify-me .input {
   flex: 1 1 calc((100% - 12px) / 3 * 2);
+}
+
+.lkp .notify-me .input p {
+  color: var(--light-red);
+  font-style: italic;
+}
+
+.lkp .notify-me #email {
+  width: 100%;
   padding: 1rem 1.5rem;
   font-size: 1.25rem;
   border: 1px solid var(--pale-blue);
   border-radius: 100px;
+  min-width: 300px;
 }
 
 .lkp input:focus {
