@@ -79,9 +79,13 @@ header img.logo {
 .lkp .notify-me .input p {
   color: var(--light-red);
   font-style: italic;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
-.lkp .notify-me #email {
+.lkp .notify-me .input #email {
   width: 100%;
   padding: 1rem 1.5rem;
   font-size: 1.25rem;
