@@ -84,7 +84,7 @@ header img.logo {
   margin-top: 0.5rem;
   font-size: 1rem;
   font-weight: 300;
-  /* display: none; */
+  display: none;
 }
 
 .lkp .notify-me .input #email {
@@ -96,7 +96,7 @@ header img.logo {
   min-width: 300px;
 }
 
-.lkp input:focus {
+.lkp .notify-me input:focus {
   outline: var(--pale-blue) solid 1px;
 }
 
@@ -121,6 +121,14 @@ header img.logo {
 
 .lkp .notify-me #submit:hover {
   filter: brightness(125%);
+}
+
+.lkp .notify-me .input.invalid #email{
+  outline: var(--light-red) solid 1px;
+}
+
+.lkp .notify-me .input.invalid p {
+  display: block;
 }
 
 .lkp > img {
