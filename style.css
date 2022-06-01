@@ -64,6 +64,7 @@ header img.logo {
   gap: 0 12px;
   margin-bottom: 5rem;
   width: 100%;
+  align-items: flex-start;
 }
 
 .lkp .notify-me h2 {
@@ -83,6 +84,7 @@ header img.logo {
   margin-top: 0.5rem;
   font-size: 1rem;
   font-weight: 300;
+  /* display: none; */
 }
 
 .lkp .notify-me .input #email {
@@ -114,6 +116,7 @@ header img.logo {
   cursor: pointer;
   box-shadow: 0 5px 10px var(--pale-blue);
   transition: all 0.3s;
+  padding: 1rem 1.5rem;
 }
 
 .lkp .notify-me #submit:hover {
