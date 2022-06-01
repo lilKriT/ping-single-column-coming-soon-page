@@ -61,7 +61,7 @@ header img.logo {
 .lkp .notify-me {
   display: flex;
   flex-wrap: wrap;
-  gap: 0 12px;
+  gap: 12px 12px;
   margin-bottom: 5rem;
   width: 100%;
   align-items: flex-start;
@@ -70,7 +70,7 @@ header img.logo {
 .lkp .notify-me h2 {
   width: 100%;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .lkp .notify-me .input {
@@ -123,7 +123,7 @@ header img.logo {
   filter: brightness(125%);
 }
 
-.lkp .notify-me .input.invalid #email{
+.lkp .notify-me .input.invalid #email {
   outline: var(--light-red) solid 1px;
 }
 
@@ -169,4 +169,22 @@ footer .social-media svg:hover {
 footer p {
   color: var(--gray);
   font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .lkp {
+    width: 70%;
+  }
+
+  .lkp h1 {
+    font-size: 1.625rem;
+  }
+
+  .lkp .notify-me h2 {
+    font-size: 16px;
+  }
+
+  .lkp > img {
+    width: 120%;
+  }
 }
